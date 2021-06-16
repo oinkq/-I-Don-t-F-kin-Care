@@ -17,16 +17,16 @@ function setup(){
     block2 = createSprite(295,580,200,30);
     block2.shapeColor = "orange";
 
-    block3 = createSprite(3,580,40,30);
+    block3 = createSprite(515,580,200,30);
     block3.shapeColor = "red";
 
-    block4 = createSprite(285,580,100,30);
+    block4 = createSprite(740,580,220,30);
     block4.shapeColor = "green"
 
     ball = createSprite(random(20,750),100, 40,40);
     ball.shapeColor = rgb(255,255,255);
-    ball.velocityX = 2;
-    ball.velocityY = -1;
+    ball.velocityX = 4;
+    ball.velocityY = 9;
 
 }
 
